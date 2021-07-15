@@ -5,7 +5,9 @@ console.log("Hello World");
 
 const index = __dirname + '/views/index.html';
 
-app.get('/', res.sendFile(index));
+app.get('/', function(req, res) {
+    res.sendFile(index);
+});
 
 
 
