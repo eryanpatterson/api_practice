@@ -7,10 +7,13 @@ app.use('/public', express.static(public));
 
 const index = __dirname + '/views/index.html';
 
-/* app.get('/', function(req, res) {
+app.get('/', function(req, res) {
     res.sendFile(index);
 });
-*/
+
+app.get('/json', function(req, res) {
+    res.json({"message": "Hello json"});
+});
 
 
 
