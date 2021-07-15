@@ -11,12 +11,12 @@ app.get('/', function(req, res) {
     res.sendFile(index);
 });
 
-const message = {"message": "Hello json"};
+const message = "Hello json";
 
 app.get('/json', function(req, res) {
     if (process.env.MESSAGE_STYLE === 'uppercase') {
-    res.json(message.toUpperCase()); } else {
-    res.json(message); }
+    res.json({"message": message.toUpperCase()}); } else {
+    res.json({"message": message}); }
 });
 
 
