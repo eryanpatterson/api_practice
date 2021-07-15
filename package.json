@@ -1,6 +1,7 @@
 {
 	"author": "Ethan Patterson",
 	"name": "fcc-learn-npm-package-json",
+	"description": "A space for practicing npm things",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
