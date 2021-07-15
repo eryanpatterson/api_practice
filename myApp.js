@@ -3,9 +3,9 @@ var app = express();
 
 console.log("Hello World");
 
-app.get('/', function(req, res) {
-    res.send('Hello Express');
-});
+const index = __dirname + /views/index.html;
+
+app.get('/', res.sendFile(index));
 
 
 
