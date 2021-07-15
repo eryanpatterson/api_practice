@@ -1,7 +1,9 @@
 var express = require('express');
 var app = express();
 
-console.log("Hello World");
+const public = __dirname + '/public';
+
+app.use('/public', express.static(public));
 
 const index = __dirname + '/views/index.html';
 
