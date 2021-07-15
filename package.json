@@ -1,7 +1,8 @@
 {
 	"author": "Ethan Patterson",
 	"name": "fcc-learn-npm-package-json",
-	"description": "A space for practicing npm things",
+	"description": "A space for practicing npm things with freecodecamp",
+	"keywords": ["freecodecamp", "coding", "backend"],
 	"dependencies": {
 		"express": "^4.14.0"
 	},
