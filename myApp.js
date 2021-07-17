@@ -1,7 +1,6 @@
 require('dotenv').config();
 const mongoose = require("mongoose");
 
-//mongoose.connect('mongodb+srv://codie:uecAkJG81tkiruuJ@cluster0.h6lbc.mongodb.net/exambulance-test?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 let Person;
 
